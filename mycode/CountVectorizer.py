@@ -13,3 +13,8 @@ vector = vectorizer.transform(text)
 print(vector.shape)
 print(type(vector))
 print(vector.toarray())
+
+# encode another document
+text2 = ["the puppy"]
+vector = vectorizer.transform(text2)
+print(vector.toarray())
